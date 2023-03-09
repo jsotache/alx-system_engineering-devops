@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ "$current_dir/$file" -nt "$parent_dir/$file" ] cp "$file" "$parent_dir"
